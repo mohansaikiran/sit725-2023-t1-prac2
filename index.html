@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <script src="compute.js" async></script>
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <h1>SIT725</h1>
+    <h3>Online Workshop 2</h3>
+    <h4>Enter your first number </h4><input type="text" placeholder="Enter Number" id="firstNum">
+    <h4>Enter your second number </h4><input type="text" placeholder="Enter Number" id="secNum">
+    <h4>Select the computation you need</h4>
+    <div style="display: flex; justify-content: space-evenly;">
+        <div><button class="btn-comp" onclick="computeFunc('add')" name="add">Add</button></div>
+        <div><button class="btn-comp" onclick="computeFunc('subtract')" name="subtract">Subtract</button></div>
+        <div><button class="btn-comp" onclick="computeFunc('multiply')" name="multiply">Multiply</button></div>
+        <div><button class="btn-comp" onclick="computeFunc('divide')" name="divide">Divide</button></div>
+    </div>
+</html>
